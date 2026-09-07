@@ -27,16 +27,16 @@ sistema-biblioteca/
 └── .gitignore          # Archivos a ignorar en git
 ```
 
-## Requisitos 🔧
+## Requisitos 
 
 - Python 3.7 o superior
 - No requiere instalación de paquetes externos (solo librerías estándar)
 
-## Instalación 🚀
+## Instalación 
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/JulioCan010605/sistema-biblioteca.git
+git clone 
 cd sistema-biblioteca
 ```
 
@@ -50,7 +50,7 @@ python3 --version
 python3 main.py
 ```
 
-## Uso 💻
+## Uso 
 
 ### Menú Principal
 
@@ -88,7 +88,7 @@ Al ejecutar `main.py` se muestra un menú interactivo con las siguientes opcione
 1. Selecciona opción 5 (Reportes)
 2. Elige el reporte deseado
 
-## Modelos de Datos 🗄️
+## Modelos de Datos 
 
 ### Tabla: Autores
 ```sql
@@ -224,7 +224,7 @@ El sistema registra todas las operaciones en la consola con niveles:
 - `WARNING`: Datos no encontrados
 - `ERROR`: Problemas en operaciones
 
-## Validaciones ✔️
+## Validaciones 
 
 El sistema incluye validaciones para:
 - Nombres únicos de autores y ISBNs
@@ -251,24 +251,6 @@ El sistema incluye validaciones para:
 3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
-
-## Autor 
-
-**Julio Cesar Cantero Castañeda**
-- Ingeniería en Computación - UNAM
-- GitHub: [@JulioCan010605](https://github.com/JulioCan010605)
-
-## Licencia 
-
-Este proyecto está bajo la Licencia MIT. Ver archivo `LICENSE` para más detalles.
-
-## Notas Importantes 
-
-- Este es un proyecto educativo
-- Desarrollado como práctica de ingeniería de software
-- Utiliza solo librerías estándar de Python
-- Compatible con Python 3.7+
-- Testado en sistemas Linux, macOS y Windows
 
 
 
