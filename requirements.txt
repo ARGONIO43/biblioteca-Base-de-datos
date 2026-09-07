@@ -1,0 +1,18 @@
+## Sistema de Gestión de Biblioteca
+## Dependencias del proyecto
+
+# Este proyecto solo usa librerías estándar de Python
+# No requiere instalación de paquetes externos
+# Compatible con Python 3.7+
+
+# Librerías estándar utilizadas:
+# - sqlite3 (gestión de base de datos)
+# - os (operaciones del sistema)
+# - pathlib (manejo de rutas)
+# - logging (registros de operaciones)
+# - datetime (manejo de fechas y horas)
+
+# Opcional para desarrollo:
+# pytest>=7.0  # Para testing
+# black>=22.0  # Formateo de código
+# flake8>=4.0  # Linting
