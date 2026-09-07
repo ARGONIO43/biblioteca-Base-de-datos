@@ -7,7 +7,7 @@ import sqlite3
 from pathlib import Path
 import logging
 
-# Configurar logging
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -40,7 +40,7 @@ class BaseDatos:
         cursor = self.conexion.cursor()
         
         try:
-            # Tabla de autores
+          
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS autores (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -52,7 +52,7 @@ class BaseDatos:
                 )
             ''')
             
-            # Tabla de libros
+         
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS libros (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -84,7 +84,7 @@ class BaseDatos:
                 )
             ''')
             
-            # Tabla de préstamos
+      
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS prestamos (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
